@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Proposer un trajet</title>
+	<link rel="stylesheet" href="./css/proposer_trajet.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+	
+</head>
+
+<body>
+	<header>
+		<img width="200px" height="100px" src="./images/logo.png">
+		<nav>	
+               <ul>
+				<li><a href="main.html">Acceuil </a>
+				<li><a href="location.html">Location</a></li>
+				<li><a href="rechercher_trajet.html">Rechercher un trajet</a></li>
+                <li><a href="proposer_trajet.html">Proposer un trajet</a></li>
+			</ul>
+		</nav>		
+	</header>
+	<main>
+		<div>
+			<div class="head">
+				<h1>
+					Bienvenue sur la page de proposition de trajet
+				</h1>
+				<p>
+					Remplissez le formulaire ci-dessous pour proposer un trajet. <br> Merci de votre participation, grace à vous, notre réseau de covoiturage s'agrandit !
+				</p>
+			</div>
+			<div class="form">
+				<form action="sucess.html" method="post">
+					<div>
+						<label for="depart">Ville de départ</label>
+						<input type="text" name="depart" id="depart" required>
+					</div>
+					<div>
+						<label for="arrivee">Ville d'arrivée</label>
+						<input type="text" name="arrivee" id="arrivee" required>
+					</div>
+					<div>
+						<label for="date">Date</label>
+						<input type="date" name="date" id="date" required>
+					</div>
+					<div>
+						<label for="heure">Heure</label>
+						<input type="time" name="heure" id="heure" required>
+					</div>
+					<div>
+						<label for="nb_places">Nombre de places</label>
+						<input type="number" name="nb_places" id="nb_places" required>
+					</div>
+					<div>
+						<label for="prix">Prix</label>
+						<input type="number" name="prix" id="prix" required>
+					</div>
+					<div>
+						<label for="commentaire">Commentaire</label>
+						<textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+					</div>
+					<div>
+						<button onclick="window.location.href = 'sucess.html';">Proposer</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="visit">
+            <h1>Visit us </h1>
+            <a href="https://www.activision.com/">activision.com</a> <a href="https://www.blizzard.com/">blizzard.com</a> <a href="https://www.king.com/">king.com</a>   
+        </div>
+        <div class="contact">
+            <h1>Get in touch with our team!</h1>
+            <a href="">Contact us</a>
+        </div>
+        <div class="reseau">
+            <h1>Get in touch with our team!</h1>
+            <a href="https://www.linkedin.com/company/activision-blizzard"><img width="50px" height="50px" src="./images/linkedin.png"></a>
+            <a href="https://twitter.com/atvi_ab?lang=en"><img width="50px" height="50px" src="./images/twitter.png"></a>
+            <a href="https://www.facebook.com/activision.blizzard.atvi/"><img width="50px" height="50px" src="./images/facebook.png"></a>
+        </div>
+	</footer>
+</body>
+</html>

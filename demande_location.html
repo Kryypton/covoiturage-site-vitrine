@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Demande en cours</title>
+	<link rel="stylesheet" href="./css/demande_location.css" />
+	<link rel="stylesheet" href="./css/style.css" />
+	
+</head>
+
+<body>
+	<header>
+		<img width="200px" height="100px" src="./images/logo.png">
+		<nav>	
+               <ul>
+				<li><a href="main.html">Acceuil</a>
+				<li><a href="location.html">Location</a></li>
+				<li><a href="rechercher_trajet.html">Rechercher un trajet</a></li>
+                <li><a href="proposer_trajet.html">Proposer un trajet</a></li>
+			</ul>
+		</nav>		
+	</header>
+	<main>
+		<div class="head">
+			<h1> Demande en cours de traitement</h1>
+			<p> Afin de finaliser votre demande de location, merci de remplir les champs ci-contre</p>
+		</div>
+		<div class="form">
+			<form>
+				<div>
+					<h2>Informations personnelles</h2>
+				</div>
+
+				<label for="nom">Nom</label>
+				<input type="text" name="nom" id="nom" required><br>
+				<label for="prenom">Prénom</label>
+				<input type="text" name="prenom" id="prenom" required><br>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" required><br>
+				<label for="tel">Téléphone</label>
+				<input type="tel" name="tel" id="tel" required><br>
+				<label for="adresse">Adresse</label>
+				<input type="text" name="adresse" id="adresse" required><br>
+				<label for="ville">Ville</label>
+				<input type="text" name="ville" id="ville" required><br>
+				<label for="code_postal">Code postal</label>
+				<input type="text" name="code_postal" id="code_postal" required><br>
+				<label for="pays">Pays</label>
+				<input type="text" name="pays" id="pays" required><br>
+				<label for="date_naissance">Date de naissance</label>
+				<input type="date" name="date_naissance" id="date_naissance" required><br>
+				<label for="permis">Permis de conduire</label>
+				<input type="text" name="permis" id="permis" required><br>
+				<label for="num_permis">Numéro de permis</label>
+				<input type="text" name="num_permis" id="num_permis" required><br>
+				<label for="date_permis">Date d'obtention du permis</label>
+				<input type="date" name="date_permis" id="date_permis" required><br>
+				<label for="num_carte">Numéro de carte bancaire</label>
+				<input type="text" name="num_carte" id="num_carte" required><br>
+				<label for="date_carte">Date d'expiration de la carte</label>
+				<input type="date" name="date_carte" id="date_carte" required><br>
+				<label for="cryptogramme">Cryptogramme</label>
+				<input type="text" name="cryptogramme" id="cryptogramme" required><br>
+				<button onclick="window.location.href = 'sucess.html';">Envoyer</button>
+			</form>
+
+		</div>
+
+	</main>
+	<footer>
+		<div class="visit">
+            <h1>Visit us </h1>
+            <a href="https://www.activision.com/">activision.com</a> <a href="https://www.blizzard.com/">blizzard.com</a> <a href="https://www.king.com/">king.com</a>   
+        </div>
+        <div class="contact">
+            <h1>Get in touch with our team!</h1>
+            <a href="">Contact us</a>
+        </div>
+        <div class="reseau">
+            <h1>Get in touch with our team!</h1>
+            <a href="https://www.linkedin.com/company/activision-blizzard"><img width="50px" height="50px" src="./images/linkedin.png"></a>
+            <a href="https://twitter.com/atvi_ab?lang=en"><img width="50px" height="50px" src="./images/twitter.png"></a>
+            <a href="https://www.facebook.com/activision.blizzard.atvi/"><img width="50px" height="50px" src="./images/facebook.png"></a>
+              
+        </div>
+	</footer>
+</body>
+</html>

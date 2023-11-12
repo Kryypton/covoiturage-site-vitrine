@@ -1,0 +1,62 @@
+.head {
+    background-color: #f2f2f218;
+    text-align: center;
+    padding: 5px;
+
+    font-weight: lighter;
+    color: #000000;
+    margin-top: 0%;
+}
+
+.form {
+    border: 5px;
+    border-style: solid;
+    border-color: #dbbd40;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #f2f2f218;
+    text-align: center;
+    padding: 5px;
+    font-weight: lighter;
+    color: #000000;
+    margin-top: 3%;
+}
+
+.head>h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #dbbd40;
+}
+.head>p {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.form>form {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.form>form>input {
+    justify-self: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form>form>label {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form>form>div>h2 {
+    justify-self: center;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
